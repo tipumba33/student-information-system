@@ -1,0 +1,11 @@
+touch .gitignore (#if do not upload any folder then create this file and open after type folder or file "name/" )
+git config --global user.name tipumba33
+git config --global user.name tipumba33@gmail.com
+git init
+git add .
+git commit -m "initial commit"
+git status (# just to see)
+ssh-keygen -t rsa -b 4096 -c "tipumba33@gmail.com"
+tail <path to id_rsa.pub> (#add this key to your github account) 
+git remote add origin <ssh url.git>
+git push origin master
